@@ -12,4 +12,6 @@ end
 
 
 
-def move(board,input,character = "X")
+def move(board,index,character = "X")
+ board[index] = character
+ end
